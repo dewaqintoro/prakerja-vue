@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-16 bg-gray-100">
+  <div class="mt-16">
     <div class="px-40">
       <div class="text-center">
         <p class="text-darkblue text-2xl font-bold mb-3">APA ITU KARTU PRAKERJA?</p>
@@ -17,7 +17,7 @@
         <p class="text-darkblue text-2xl font-bold mb-3 mt-4">7 TAHAP PROGRAM KARTU PRAKERJA</p>
         <hr class="step-hr" />
       </div>
-      <div class="center item-center text-center">
+      <div class="center item-center text-center pb-12">
         <div class="step-video">
           <img src="https://www.prakerja.go.id/images/7-tahap-kartu-prakerja.png" />
         </div>
