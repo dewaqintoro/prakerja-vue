@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-36 pt-3 flex text-center center">
+  <div class="container pt-3 px-8 flex text-center center">
     <span class="w-1/5">
       <img class="prakerja-logo" src="prakerja/logo.PNG"/>
     </span>
