@@ -15,10 +15,10 @@
             Jam operasional Contact Center:<br/>
             Hari Senin - Minggu, Pukul 08.00 - 20.00 WIB
           </p>
-          <div class="mt-8">
+          <!-- <div class="mt-8">
             <i class="fab fa-instagram text-4xl text-white"></i>
             <i class="far fa-envelope text-4xl text-white ml-3"></i>
-          </div>
+          </div> -->
           <div class="mt-2">
             Contact Us
             <span class="ml-4">
