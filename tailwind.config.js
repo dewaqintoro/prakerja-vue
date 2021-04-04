@@ -13,6 +13,7 @@ module.exports = {
         'lighter': '#E1E8ED',
         'lightest': '#F5F8FA',
         'bluetweet': 'rgb(29, 161, 242)',
+        'darkred': '#d03801',
       }
     },
   },
