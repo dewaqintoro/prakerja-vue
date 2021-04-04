@@ -1,5 +1,5 @@
 <template>
-  <div class="m-auto center mt-4">
+  <div class="m-auto center mt-8">
     <div class="text-center">
       <p class="text-darkblue text-2xl font-bold mb-3">CARA DAFTAR</p>
       <hr class="step-hr" />
@@ -32,7 +32,7 @@
         <img class="m-auto mt-8 daftar-img" src="https://www.prakerja.go.id/images/step-01-verification.png" />
         <p class="mt-8 text-red-500 font-semibold">Setelah daftar, data kamu akan kami verifikasi</p>
       </div>
-      <div class="flex mt-8">
+      <div class="flex mt-12">
         <div class="pr-4">
           <p class="text-darkred font-bold text-lg">LANGKAH 2</p>
           <p class="text-darkblue font-bold text-lg my-6">Tes Motivasi dan Kemampuan Dasa</p>
@@ -42,7 +42,7 @@
           <img class="daftar-img" src="https://www.prakerja.go.id/images/step-02-interest.png" />
         </div>
       </div>
-      <div class="flex mt-8">
+      <div class="flex mt-12">
         <div class="my-auto">
           <img class="daftar-img" src="https://www.prakerja.go.id/images/step-03-course.png" />
         </div>
@@ -52,7 +52,7 @@
           <p>Pastikan kamu mengikuti dan menyelesaikan semua kelas pelatihan yang kamu pilih.</p>
         </div>
       </div>
-      <div class="mt-8">
+      <div class="mt-12">
         <div class="flex">
           <div class="pr-4">
             <p class="text-darkred font-bold text-lg">LANGKAH 4</p>
