@@ -1,7 +1,7 @@
 <template>
-  <div class="m-auto center">
+  <div class="m-auto center mt-4">
     <div class="text-center">
-      <p class="text-darkblue text-2xl font-bold mb-3 mt-4">CARA DAFTAR</p>
+      <p class="text-darkblue text-2xl font-bold mb-3">CARA DAFTAR</p>
       <hr class="step-hr" />
       <p class="py-8 text-darkblue">Pelajari dan ikuti panduan di bawah ini untuk mengikuti program</p>
     </div>
