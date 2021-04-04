@@ -43,6 +43,27 @@
   </div>
 </template>
 
+<script>
+import { ref } from 'vue'
+export default {
+  name: 'Footer',
+  setup(){
+    var counter = ref(1)
+
+    return { counter, cek, tambah }
+
+    function tambah(){
+      counter.value = counter.value + 1
+    }
+
+    function cek(){
+      // counter= counter+1
+      console.log(counter)
+    }
+  }
+}
+</script>
+
 <style scoped>
 .footer img {
   height: 40px;

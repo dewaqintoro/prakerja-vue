@@ -19,7 +19,12 @@
       </div>
       <div class="center item-center text-center pb-12">
         <div class="step-video">
-          <img src="https://www.prakerja.go.id/images/7-tahap-kartu-prakerja.png" />
+          <video v-if="isVideo" width="540" height="" controls>
+            <source src="https://www.prakerja.go.id/videos/7-tahap-kartu-prakerja.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+          <img v-else src="https://www.prakerja.go.id/images/7-tahap-kartu-prakerja.png" @click="showVideo()" />
         </div>
       </div>
     </div>
@@ -27,21 +32,16 @@
 </template>
 
 <script>
+import { ref } from 'vue'
 
 export default {
   name: 'StepOne',
   setup(){
-    var isVideo = true
-    var counter = 11
+    var isVideo = ref(false)
 
-    return { isVideo, counter, showImage, tambah }
-    function showImage() {
-      // isVideo = true
-      console.log(counter)
-    }
-
-    function tambah(){
-      counter= counter+1
+    return { isVideo, showVideo }
+    function showVideo() {
+      isVideo.value = true
     }
   }
 }
